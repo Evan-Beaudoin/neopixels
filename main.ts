@@ -1,3 +1,9 @@
+// Created By: Evan
+// 
+// Created on: Sept. 2020
+// 
+// This program: Uses robot bit neopixels for a traffic light
+// 
 let strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 let Delay = 1000
 strip.clear()
